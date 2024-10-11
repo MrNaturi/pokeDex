@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+    font-family: 'solid', sans-serif;
+}
+img {
+  display: block;
+}
+@font-face{
+    font-family: 'solid';
+    src: url('./fonts/Pokemon Solid.ttf') format('truetype');
+  }  
+@font-face{
+    font-family: 'hollow';
+    src: url('./fonts/Pokemon Hollow.ttf') format('truetype');
+  }
+  h1{
+    font-family: 'hollow', sans-serif;
+  }
+  
